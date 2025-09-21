@@ -1,0 +1,32 @@
+{
+  "name": "ai-crm-insights",
+  "version": "1.0.0",
+  "description": "AI-Enhanced Customer Relationship Management Insights Generator",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../ml-engine && pip install -r requirements.txt"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "crm",
+    "ai",
+    "machine-learning",
+    "llama",
+    "insights"
+  ],
+  "author": "Joe - World-Class Full-Stack Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "axios": "^1.12.2",
+    "form-data": "^4.0.4",
+    "tailwindcss": "^4.1.13"
+  }
+}
