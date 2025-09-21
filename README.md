@@ -269,6 +269,5 @@ For support and questions:
 
 ---
 
-**Built with ❤️ by Joe - World-Class Full-Stack Developer**
+**Built with ❤️ by kavin**
 
-*55+ years of experience | 1000+ projects | Tech Giants Alumni*
